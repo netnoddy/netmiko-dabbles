@@ -53,5 +53,3 @@ for execute in fsm_results:
         c = net_connect.send_config_from_file('AP-CHANGE-PRIM-SEC')  # Send command needed to device
         print(c)
         c = net_connect.disconnect()
-x = net_connect.disconnect
-
